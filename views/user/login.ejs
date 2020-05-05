@@ -1,0 +1,27 @@
+<%- include('../partials/header'); %>
+
+<div class="form-style-10">
+<h1>Login Now!<span>Login to the house renting site!</span></h1>
+
+<form action ='/login' method="post">
+    
+
+    <div class="section"><span>2</span>Email & Phone</div>
+    <div class="inner-wrap">
+        <label>Email Address <input type="email" name="email" /></label>
+        
+    </div>
+
+    <div class="section"><span>3</span>Passwords</div>
+        <div class="inner-wrap">
+        <label>Password <input type="password" name="password" /></label>
+        
+    </div>
+    <div class="button-section">
+     <input type="submit"/>
+     
+    </div>
+    <p class="lead">Not Registered in?<a href = /buyer/register >Register</a></p>
+</form>
+</div>
+  <%- include('../partials/footer'); %>
